@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "build": "./node_modules/.bin/webpack"
+    "build": "./node_modules/.bin/webpack"
   },
   "license": "MIT",
   "devDependencies": {
@@ -11,8 +11,10 @@
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-stream": "^5.2.1"
   },
   "dependencies": {
     "jquery": "^3.4.1"

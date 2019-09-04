@@ -20894,6 +20894,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let cnt = 0;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()("button").click(() => {
+  console.log("clicked!!!!!!!!!!!");
   jquery__WEBPACK_IMPORTED_MODULE_0___default()("ul").append("<li>" + String(cnt) + "</li>");
   cnt = Object(_function_js__WEBPACK_IMPORTED_MODULE_1__["default"])(cnt);
 });
